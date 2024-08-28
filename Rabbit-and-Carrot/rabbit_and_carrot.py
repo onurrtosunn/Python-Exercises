@@ -4,8 +4,8 @@ import numpy as np
 from random import randint
 
 SCORE = 0
-WINDOW_HEIGHT = 480
-WINDOW_WIDTH = 480
+WINDOW_HEIGHT = 640
+WINDOW_WIDTH = 640
 RED = (0, 0, 255)
 GREEN = (0, 255, 0)
 BLUE = (255, 0, 0)
