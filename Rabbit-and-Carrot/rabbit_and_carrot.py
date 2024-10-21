@@ -69,8 +69,8 @@ while True:
     if remaining_time == 0:
         print(f"Game Over! Your  score:{SCORE}")
         break
-
     distance = np.sqrt(np.sum((rabbit - carrot) ** 2))
+    
     if distance < 5:
         SCORE += 1
         print(f"Score: {SCORE}")
